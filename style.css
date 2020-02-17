@@ -31,8 +31,36 @@ button{
 #subscribe{
     width: 20%;
     align-items: center;
+    margin: -40px 0px;
 }
 #share{
     width: 5%;
     align-items: center;
+}
+
+.videoactions{
+    padding: 40px;
+}
+/*
+.sidebar{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 10px;
+    display: block;
+    nav-right: auto;
+}
+  
+.sidebar {
+    width: 130px;
+    top: 20px;
+    left: 10px;
+    background: #eee;
+    overflow-x: hidden;
+    padding: 8px 0;
+  } 
+*/ 
+
+main{
+    display: grid;
+    grid-template-columns: 70% 30%;
 }
