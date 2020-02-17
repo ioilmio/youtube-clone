@@ -4,13 +4,35 @@ body{
     box-sizing: border-box;
 }
 #logo{
-    width: 100px;
-    margin: 20px;
+    width: 20%;
 }
 input{
-    flex: right;
-    margin: 20px;
+    /*flex: right;
+    margin: 20px;*/
+    align-items: center;
+    justify-content: center;
 }
 button{
-    margin: 20px;
+    /*margin: 20px;*/
+    align-items: center;
+}
+
+#avatar, #settings, #calendar{
+    width: 5%;
+    align-items: center;
+}
+
+
+#autoravatar{
+    width: 5%;
+    align-items: center;
+}
+
+#subscribe{
+    width: 20%;
+    align-items: center;
+}
+#share{
+    width: 5%;
+    align-items: center;
 }
