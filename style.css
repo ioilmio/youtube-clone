@@ -3,12 +3,13 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+.nav-bar{
+    background-color:yellow;
+}
 #logo{
     width: 20%;
 }
 input{
-    /*flex: right;
-    margin: 20px;*/
     align-items: center;
     justify-content: center;
 }
@@ -35,13 +36,24 @@ button{
 }
 #share{
     width: 5%;
-    align-items: center;
+/*     align-items: center; */
 }
 
 .videoactions{
     padding: 40px;
+/*     background-color:#f00; */
 }
-/*
+.sidebar{
+    background-color:blue;
+}
+.video>h1{
+    background-color:gray;
+}
+.video>h3{
+    background-color:gray;
+}
+
+
 .sidebar{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
@@ -58,7 +70,7 @@ button{
     overflow-x: hidden;
     padding: 8px 0;
   } 
-*/ 
+
 
 main{
     display: grid;
