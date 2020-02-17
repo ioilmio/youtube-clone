@@ -2,10 +2,19 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(226, 225, 225);
+}
+i{
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: gray;
+    margin: 10px;
 }
 
 .nav-bar{
-    background-color:yellow;
+    background-color: white;
 }
 #logo{
     width: 20%;
@@ -15,8 +24,11 @@ input{
     justify-content: center;
 }
 button{
-    /*margin: 20px;*/
     align-items: center;
+}
+.searchform>button[type="submit"]{
+    height:inherit;
+    width: 50px;
 }
 
 #avatar, #settings, #calendar{
@@ -45,10 +57,10 @@ button{
 /*     background-color:#f00; */
 }
 .sidebar{
-    background-color:blue;
+    background-color:white;
 }
 .video>h1{
-    background-color:gray;
+    background-color:white;
 }
 .video>h3{
     background-color:gray;
@@ -76,4 +88,13 @@ button{
 main{
     display: grid;
     grid-template-columns: 70% 30%;
+}
+
+footer{
+    background-color: white;
+}
+span{
+    background-color: gray;
+    margin:5px;
+    padding: 5px;
 }
