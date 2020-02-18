@@ -1,100 +1,166 @@
 body{
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 20px;
     box-sizing: border-box;
-    background-color: rgb(226, 225, 225);
+    font-size: 16px;
+    font-family: sans-serif;
+    background-color: rgb(223, 223, 223);
 }
-i{
-    font-size: 40px;
+img{
+    width: 100px;
 }
-a{
-    text-decoration: none;
-    color: gray;
-    margin: 10px;
+
+.container{
+    display: grid;
+    grid-template-columns: 577px 400px;
+    justify-content: space-evenly;
+    gap: 20px;
+    grid-template-areas: "main aside";
+    margin-top: 15px;
 }
+
+#logo{
+    width: 100px;
+}
+
+#sign-in{
+    width: 100px;
+    height: 20px;
+}
+
 
 .nav-bar{
+    display: inline-flex;
+    justify-content: space-around;
+    padding: 20px;
+    vertical-align: center;
+}
+header{
     background-color: white;
 }
-#logo{
-    width: 20%;
-}
-input{
-    align-items: center;
-    justify-content: center;
-}
-button{
-    align-items: center;
-}
-.searchform>button[type="submit"]{
-    height:inherit;
-    width: 50px;
-}
-
-#avatar, #settings, #calendar{
-    width: 5%;
-    align-items: center;
-}
-
-
-#autoravatar{
-    width: 5%;
-    align-items: center;
-}
-
-#subscribe{
-    width: 20%;
-    align-items: center;
-    margin: -40px 0px;
-}
-#share{
-    width: 5%;
-/*     align-items: center; */
-}
-
 .videoactions{
-    padding: 40px;
-/*     background-color:#f00; */
-}
-.sidebar{
-    background-color:white;
-}
-.video>h1{
-    background-color:white;
-}
-.video>h3{
-    background-color:gray;
-}
-
-
-.sidebar{
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 10px;
-    display: block;
-    nav-right: auto;
-}
-  
-.sidebar {
-    width: 130px;
-    top: 20px;
-    left: 10px;
-    background: #eee;
-    overflow-x: hidden;
-    padding: 8px 0;
-  } 
-
-
-main{
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-
-footer{
     background-color: white;
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
-span{
-    background-color: gray;
-    margin:5px;
-    padding: 5px;
+
+.videoactions>div{
+    font-size: 20px;
+}
+
+.showmore{
+    background-color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 20px;
+}
+.author{
+    background-color: white;
+    display: grid;
+    margin-top: 20px;
+    padding: 20px;
+    gap:10px;
+
+    grid-template-columns: 100px 200px 100px 100px;
+    /* grid-template-columns: auto auto auto auto; */
+    grid-template-rows: 50px 50px 50px;
+    grid-template-areas: 
+    "video-title video-title video-title video-title"
+    "author-avatar author-name ... ..."
+    "author-avatar subscribe-button ... numberofviews"
+    ;
+}
+.sidebar{
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#showmore-btn{
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.video-title{
+    grid-area: video-title;
+}
+.author-avatar{
+    grid-area: author-avatar;
+}
+.author-name{
+    grid-area: author-name;
+}
+.numberofviews{
+    grid-area: numberofviews;
+    align-items: baseline;
+}
+.subscribe-button{
+    grid-area: subscribe-button;
+}
+.footer{
+    background-color: white;
+    padding: 20px;
+}
+.upnext{
+    display: flex;
+    justify-content: space-between;
+}
+.footer>span{
+    display: inline;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 10px;
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+.input{
+    width: 500px;
+    white-space: 20px;
+}
+
+/* Thumnail style*/
+.preview{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    grid-template-areas: 
+    "thumnail-image thumnail-title"
+    "thumnail-image thumnail-views";
+}
+
+#thumnail{
+    width: 200px;
+    margin-bottom: 21px;
+}
+
+.thumnail-image{
+    grid-area: thumnail-image;
+}
+
+.thumnail-title{
+    font-size: 15px;
+    grid-area: thumnail-title;
+}
+
+.thumnail-views{
+    font-size: 10px;
+    grid-area: thumnail-views;
+    color: darkgray;
+}
+
+/* icons styles*/
+i {
+    font-size: 20px;
+    color: darkgray
+}
+a {
+    text-decoration: none;
+    color: gray;
 }
