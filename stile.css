@@ -38,8 +38,15 @@ header{
 }
 .videoactions{
     background-color: white;
-    padding: 20px;
+    /*padding: 20px;*/
+    display: flex;
+    justify-content: space-between;
 }
+
+.videoactions>div{
+    font-size: 20px;
+}
+
 .showmore{
     background-color: white;
     margin: 20px;
@@ -47,11 +54,33 @@ header{
 }
 .author{
     background-color: white;
+    display: grid;
+    grid-template-columns: 100px 400px 100px;
+    grid-template-rows: 50px 100px 50px;
+    grid-template-areas: 
+    "video-title video-title video-title"
+    "author-avatar author-name numberofviews"
+    "author-avatar subscribe-button ......";
 }
 .sidebar{
     background-color: white;
     padding: 20px;
+}
 
+.video-title{
+    grid-area: video-title;
+}
+.author-avatar{
+    grid-area: author-avatar;
+}
+.author-name{
+    grid-area: author-name;
+}
+.numberofviews{
+    grid-area: numberofviews;
+}
+.subscribe-button{
+    grid-area: subscribe-button;
 }
 .footer{
     background-color: white;
