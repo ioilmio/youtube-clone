@@ -12,10 +12,12 @@ img{
 
 .container{
     display: grid;
-    grid-template-columns: 600px 300px;
+    grid-template-columns: 560px 400px;
+    justify-content: space-evenly;
+    
     gap: 20px;
     grid-template-areas: "main" "aside";
-
+    margin-top: 15px;
 }
 
 #logo{
@@ -32,6 +34,7 @@ img{
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    vertical-align: center;
 }
 header{
     background-color: white;
@@ -55,7 +58,7 @@ header{
 .author{
     background-color: white;
     display: grid;
-    grid-template-columns: 100px 400px 100px;
+    grid-template-columns: 100px 300px 160px;
     grid-template-rows: 50px 100px 50px;
     grid-template-areas: 
     "video-title video-title video-title"
@@ -97,4 +100,46 @@ header{
     justify-content: space-between;
     font-size: 10px;
     background-color: rgb(211, 211, 211);
+}
+
+
+
+.input{
+    width: 500px;
+    white-space: 20px;
+}
+
+/* Thumnail style*/
+.preview{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+    "thumnail-image thumnail-title"
+    "thumnail-image thumnail-views";
+}
+
+#thumnail{
+    width: 200px;
+}
+
+.thumnail-image{
+    grid-area: thumnail-image;
+}
+
+.thumnail-title{
+    font-size: 15px;
+    grid-area: thumnail-title;
+}
+
+.thumnail-views{
+    font-size: 10px;
+    grid-area: thumnail-views;
+    color: darkgray;
+}
+
+/* icons styles*/
+i {
+    font-size: 20px;
+    color: darkgray
 }
