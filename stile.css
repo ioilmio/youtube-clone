@@ -2,6 +2,8 @@ body{
     margin: 20px;
     padding: 20px;
     box-sizing: border-box;
+    font-size: 10px;
+    font-family: sans-serif;
     background-color: rgb(223, 223, 223);
 }
 img{
@@ -11,7 +13,9 @@ img{
 .container{
     display: grid;
     grid-template-columns: 600px 300px;
+    gap: 20px;
     grid-template-areas: "main" "aside";
+
 }
 
 #logo{
@@ -27,4 +31,41 @@ img{
 .nav-bar{
     display: flex;
     justify-content: space-between;
+    padding: 20px;
+}
+header{
+    background-color: white;
+}
+.videoactions{
+    background-color: white;
+    padding: 20px;
+}
+.showmore{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+.author{
+    background-color: white;
+}
+.sidebar{
+    background-color: white;
+    padding: 20px;
+
+}
+.footer{
+    background-color: white;
+    padding: 20px;
+}
+.upnext{
+    display: flex;
+    justify-content: space-between;
+}
+.footer>span{
+    display: inline;
+    padding: 10px;
+    align-content: center;
+    justify-content: space-between;
+    font-size: 10px;
+    background-color: rgb(211, 211, 211);
 }
