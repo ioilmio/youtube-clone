@@ -25,8 +25,13 @@ img{
 }
 
 #sign-in{
-    width: 100px;
-    height: 20px;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(22, 122, 198);
+    border: none;
+    border-radius: 2px;
+    color:white;
+
 }
 
 
@@ -124,10 +129,10 @@ header{
 .footer>span{
     display: inline;
     padding: 10px;
-    align-content: center;
     justify-content: space-around;
     font-size: 10px;
     background-color: rgb(211, 211, 211);
+    
 }
 
 
@@ -176,4 +181,5 @@ i {
 a {
     text-decoration: none;
     color: gray;
+    font-size: 10px;
 }
