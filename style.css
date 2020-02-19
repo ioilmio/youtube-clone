@@ -1,6 +1,6 @@
 body{
-    margin: 20px;
-    padding: 20px;
+    /* margin: 20px; */
+    /* padding: 20px; */
     box-sizing: border-box;
     font-size: 16px;
     font-family: sans-serif;
@@ -11,9 +11,9 @@ img{
 }
 
 .container{
-    width: 970px;
+    width: 100%;
     display: grid;
-    grid-template-columns: 600px 390px;
+    grid-template-columns: 60% 40%;
     justify-content: space-between;
     gap: 20px;
     grid-template-areas: "main aside";
@@ -24,6 +24,13 @@ img{
     width: 100px;
 }
 
+.logo-icon{
+    width: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
 #sign-in{
     width: 80px;
     height: 30px;
@@ -31,31 +38,20 @@ img{
     border: none;
     border-radius: 2px;
     color:white;
-
 }
-
 
 .nav-bar{
     display: inline-flex;
     justify-content: space-around;
     padding: 20px;
-    vertical-align: center;
-    width: 970px;
+    align-items: center;    
+    width: 100%;
     background-color: white;
 }
+
 .nav-sign>span{
     margin: 10px;
 }
-/* .video{
-    background-color: white;
-}
-.video{
-    background-color: white;
-    margin: 20px;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-} */
 
 .videoactions>div{
     font-size: 20px;
@@ -66,22 +62,7 @@ img{
     margin: 20px 0px 20px 0px;
     padding: 20px;
 }
-/* .video{
-    background-color: white;
-    display: grid;
-    margin-top: 20px;
-    padding: 10px;
-    gap:10px;
-    grid-template-columns: 100px 200px 100px 100px 100px;
-    grid-template-rows: 30px 30px 30px 2px 50px;
-    grid-template-areas: 
-    "video-title video-title video-title video-title video-title"
-    "author-avatar author-name ... ... ..."
-    "author-avatar subscribe-button ... ... numberofviews"
-    "line-actions line-actions line-actions line-actions"
-    "videoactions videoactions videoactions videoactions videoactions"
-    ;
-} */
+
 .video{
     background-color: white;
     padding: 10px;
@@ -142,12 +123,21 @@ img{
 .subscriber{
     grid-area: subscriber;
 }
+
 .add{
     grid-area: add;
 }
 .share{
     grid-area: share;
 }
+
+.video-btn{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
 .like{
     grid-area: like;
 }
@@ -160,7 +150,7 @@ img{
 .footer{
     background-color: white;
     padding: 20px; 
-    width: 970px;
+    width: 100%;
 }
 .upnext{
     display: flex;
@@ -217,8 +207,8 @@ img{
 i {
     font-size: 20px;
     color: darkgray;
-    margin-left: 20px;
-    margin-right: 20px;    
+    margin-left: 10px;
+    margin-right: 10px;    
 }
 a {
     text-decoration: none;

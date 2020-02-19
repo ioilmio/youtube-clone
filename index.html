@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Video Player</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
-
-
     <nav class="nav-bar">
         <div class="nav-logo">
             <i class="fas fa-bars"></i>
@@ -24,18 +21,12 @@
             </button>
         </div>
         <div class="nav-sign">
-            <span>
-                <i class="fas fa-upload"></i>
-
-            </span>
-            <span>
-                <i class="fas fa-video"></i>
-
-            </span>
-            <span>
-                <i class="fas fa-bell"></i>
-
-            </span>
+                <img class="logo-icon" src="https://icons.iconarchive.com/icons/icons8/ios7/512/Computer-Hardware-Video-Camera-icon.png"
+                alt="video-logo">
+                <img class="logo-icon" src="https://www.freeiconspng.com/uploads/upload-icon-6.png"
+                alt="up-logo">
+                <img class="logo-icon" src="https://www.vippng.com/png/detail/0-423_youtube-bell-icon-png.png"
+                alt="bell-logo">
             <button type="submit" id="sign-in">Sign In</button>
         </div>
     </nav>
@@ -43,7 +34,7 @@
     <div class="container">
         <main class="main">
                 <div>
-                    <iframe width="600" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E"
+                    <iframe width="770" height="500" src="https://www.youtube.com/embed/V74l_zS1x8E"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
@@ -69,21 +60,17 @@
            
                 
                 <div class="add">
-                    <i class="fas fa-plus"></i>
-                    <span>Add to</span>
+                   <button class="video-btn"> <i class="fas fa-plus"></i>Add to</button>
                 </div>
                 <div class="share">
-
-                    <i class="fas fa-share"></i>
-                    <span>Share</span>
+                    <button class="video-btn"> <i class="fas fa-share"></i>Share</button>
                 </div>
                 <div class="like">
-                    <i class="fas fa-thumbs-up"></i>
+                    <button class="video-btn"><i class="fas fa-thumbs-up"></i></button>
                     <span>1200</span>
                 </div>
                 <div class="dislike">
-
-                    <i class="fas fa-thumbs-down"></i>
+                    <button class="video-btn"><i class="fas fa-thumbs-down"></i></button>
                     <span>12</span>
                 </div>
             
@@ -178,8 +165,6 @@
             <hr>
             
             <button id="showmore-btn">Show more</button>
-            </div>
-
 
         </aside>
     </div>
@@ -215,5 +200,3 @@
 </body>
 
 </html>
-
-!
