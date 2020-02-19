@@ -54,7 +54,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- M
+- The Odin Project
 - Team 93 Cygnus Microverse
 - Team 94 Capricornus Microverse
 
