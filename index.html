@@ -12,10 +12,10 @@
 <body>
 
 
-    <header class="nav-bar">
+    <nav class="nav-bar">
         <div class="nav-logo">
             <i class="fas fa-bars"></i>
-            <img id="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-8.png"
+            <img class="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-8.png"
                 alt="youtube-logo">
         </div>
         <div class="searchform">
@@ -24,19 +24,30 @@
             </button>
         </div>
         <div class="nav-sign">
-            <i class="fas fa-upload"></i>
+            <span>
+                <i class="fas fa-upload"></i>
+
+            </span>
+            <span>
+                <i class="fas fa-video"></i>
+
+            </span>
+            <span>
+                <i class="fas fa-bell"></i>
+
+            </span>
             <button type="submit" id="sign-in">Sign In</button>
         </div>
-    </header>
+    </nav>
 
     <div class="container">
-        <div class="main">
-                <div class="video">
-                    <iframe width="600" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0"
+        <main class="main">
+                <div>
+                    <iframe width="600" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen></iframe>
                 </div>
-                <div class="author">
+                <div class="video">
                     <div class="video-title">
                         Contributing to Open Source Part I: The Easy Way
                     </div>
@@ -45,40 +56,39 @@
                         src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="">
                     </div>
                     <div class="author-name">
-                        <span>The Odin Project</span>
+                        <h5>The Odin Project</h5>
                     </div>
                     <div class="subscribe-button">
                         <img id="subscribe"
                         src="https://pngimage.net/wp-content/uploads/2018/06/youtube-subscribe-button-png-2.png" alt="">
-                        <span>8,000</span>
                     </div>
+                    <span class="subscriber">8,000</span>
                     <div class="numberofviews">    
-                        <span>10,000 views</span>
+                        <h5>10,000 views</h5>
                     </div>  
-                    <div class="line-actions">
-                        <hr>
-                        <!-- <span>asd</span> -->
-                    </div>    
-                </div>
-            
-            
-            
-            <div class="videoactions">
+           
                 
-                <div>
+                <div class="add">
                     <i class="fas fa-plus"></i>
                     <span>Add to</span>
+                </div>
+                <div class="share">
+
                     <i class="fas fa-share"></i>
                     <span>Share</span>
                 </div>
-                <div>
+                <div class="like">
                     <i class="fas fa-thumbs-up"></i>
                     <span>1200</span>
+                </div>
+                <div class="dislike">
+
                     <i class="fas fa-thumbs-down"></i>
                     <span>12</span>
                 </div>
-            </div>
-
+            
+        </div>
+            
             <div class="showmore">
                 <h3>Published .... </h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptates cum praesentium iusto
@@ -89,9 +99,9 @@
             </div>
 
 
-        </div>
+        </main>
 
-        <div class="sidebar">
+        <aside class="sidebar">
             <div class="upnext">
                 <div>
                     <span id="up-next">Up next</span>
@@ -110,7 +120,7 @@
             </div>
             <div class="preview">
                 <div class="thumnail-image">
-                    <img id="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
                 </div>
                 <div class="thumnail-title">
                     <span>Running an SQL Injection Attack - Computerphile</span>
@@ -122,7 +132,7 @@
             </div>
             <div class="preview">
                 <div class="thumnail-image">
-                    <img id="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
                 </div>
                 <div class="thumnail-title">
                     <span>Running an SQL Injection Attack - Computerphile</span>
@@ -133,7 +143,7 @@
                 </div>
             </div>    <div class="preview">
                 <div class="thumnail-image">
-                    <img id="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
                 </div>
                 <div class="thumnail-title">
                     <span>Running an SQL Injection Attack - Computerphile</span>
@@ -144,7 +154,7 @@
                 </div>
             </div>    <div class="preview">
                 <div class="thumnail-image">
-                    <img id="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
                 </div>
                 <div class="thumnail-title">
                     <span>Running an SQL Injection Attack - Computerphile</span>
@@ -155,7 +165,7 @@
                 </div>
             </div>    <div class="preview">
                 <div class="thumnail-image">
-                    <img id="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
                 </div>
                 <div class="thumnail-title">
                     <span>Running an SQL Injection Attack - Computerphile</span>
@@ -171,12 +181,12 @@
             </div>
 
 
-        </div>
+        </aside>
     </div>
 
     <footer class="footer">
         
-        <img id="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-8.png" alt="youtube-logo">
+        <img class="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-8.png" alt="youtube-logo">
             <span>Language:English</span>
             <span>Location:Netherlands</span>
             <span>Restricted mode:Off</span>

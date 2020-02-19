@@ -20,7 +20,7 @@ img{
     margin-top: 15px;
 }
 
-#logo{
+.logo{
     width: 100px;
 }
 
@@ -41,17 +41,21 @@ img{
     padding: 20px;
     vertical-align: center;
     width: 970px;
-}
-header{
     background-color: white;
 }
-.videoactions{
+.nav-sign>span{
+    margin: 10px;
+}
+/* .video{
     background-color: white;
-    /* margin: 20px; */
+}
+.video{
+    background-color: white;
+    margin: 20px;
     display: flex;
     justify-content: space-between;
     padding: 20px;
-}
+} */
 
 .videoactions>div{
     font-size: 20px;
@@ -62,21 +66,34 @@ header{
     margin: 20px 0px 20px 0px;
     padding: 20px;
 }
-.author{
+/* .video{
     background-color: white;
     display: grid;
     margin-top: 20px;
     padding: 10px;
     gap:10px;
-
-    grid-template-columns: 100px 200px 100px 100px;
-    /* grid-template-columns: auto auto auto auto; */
-    grid-template-rows: 50px 50px 50px 2px;
+    grid-template-columns: 100px 200px 100px 100px 100px;
+    grid-template-rows: 30px 30px 30px 2px 50px;
     grid-template-areas: 
-    "video-title video-title video-title video-title"
-    "author-avatar author-name ... ..."
-    "author-avatar subscribe-button ... numberofviews"
+    "video-title video-title video-title video-title video-title"
+    "author-avatar author-name ... ... ..."
+    "author-avatar subscribe-button ... ... numberofviews"
     "line-actions line-actions line-actions line-actions"
+    "videoactions videoactions videoactions videoactions videoactions"
+    ;
+} */
+.video{
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6,100px);
+    grid-template-rows: repeat(4,50px);
+    grid-template-areas: 
+    "video-title video-title video-title video-title video-title video-title"
+    "author-avatar author-name ... ... ... ..."
+    "author-avatar subscribe-button subscriber ... numberofviews ..."
+    "add share ... ... like dislike "
     ;
 }
 
@@ -100,22 +117,46 @@ header{
 
 .video-title{
     grid-area: video-title;
+    justify-content: left;
 }
 .author-avatar{
     grid-area: author-avatar;
 }
 .author-name{
+    color: rgb(100, 100, 100);
     grid-area: author-name;
-    justify-self: baseline;
+    /* justify-self: baseline; */
 }
 .numberofviews{
+    color: rgb(100, 100, 100);
     grid-area: numberofviews;
     justify-self: end;
     /* align-items: baseline; */
 }
+.videoactions{
+    grid-area: videoactions;
+}
 .subscribe-button{
     grid-area: subscribe-button;
 }
+.subscriber{
+    grid-area: subscriber;
+}
+.add{
+    grid-area: add;
+}
+.share{
+    grid-area: share;
+}
+.like{
+    grid-area: like;
+}
+.dislike{
+    grid-area: dislike;
+}
+
+
+
 .footer{
     background-color: white;
     padding: 20px; 
@@ -138,7 +179,6 @@ header{
 
 .input{
     width: 500px;
-    white-space: 20px;
 }
 
 /* Thumnail style*/
@@ -152,7 +192,7 @@ header{
     "thumnail-image thumnail-views";
 }
 
-#thumnail{
+.thumnail{
     width: 200px;
     margin-bottom: 21px;
 }
