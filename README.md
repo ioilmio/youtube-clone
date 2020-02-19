@@ -34,8 +34,8 @@ Open the index.html with your prefered browser
 
 👤 Salvatore Iluminato
 
-- Github: [@githubhandle](https://www.linkedin.com/in/illuminato-salvatore)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/ioilmio)
+- Linkedin: [linkedin](https://www.linkedin.com/in/illuminato-salvatore)
 
 👤 Franco Rosa
 
