@@ -1,6 +1,4 @@
 body{
-    /* margin: 20px; */
-    /* padding: 20px; */
     box-sizing: border-box;
     font-size: 16px;
     font-family: sans-serif;
@@ -8,6 +6,11 @@ body{
 }
 img{
     width: 100px;
+}
+
+iframe{
+    width:600px;
+    height:500px;
 }
 
 .container{
@@ -144,6 +147,31 @@ img{
 .dislike{
     grid-area: dislike;
 }
+.comment-section{
+    background-color: white;
+    margin-bottom: 25px;
+    padding: 30px;
+}
+
+.comment-img{
+    float: left;
+    margin:20px;
+    padding: 20px;
+}
+.comment{
+    margin-bottom: 20px;
+}
+
+.like-comment{
+    display: inline;
+    flex-direction: row;
+    margin: 10px;
+}
+.dislike-comment{
+    display: inline;
+    flex-direction: row;
+}
+
 
 
 
