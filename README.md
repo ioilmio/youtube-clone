@@ -5,12 +5,6 @@
 
 This project is to show our basic HTML and CCS skills cloning the main features of Youtube.com main page.
 
-## Built With
-
-- HTML,
-- CCS,
-- Love
-
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/ioilmio/youtube-clone/nav-bar/index.html)
@@ -20,26 +14,16 @@ This project is to show our basic HTML and CCS skills cloning the main features 
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
-Any web browser
-
-### Setup
-Download the index.html and style.ccs files on this repo
-
-### Usage
-Open the index.html with your prefered browser
-
-
 ## Authors
 
 👤 Salvatore Iluminato
 
-- Github: [@githubhandle](https://github.com/ioilmio)
+- Github: [@ioilmio](https://github.com/ioilmio)
 - Linkedin: [linkedin](https://www.linkedin.com/in/illuminato-salvatore)
 
 👤 Franco Rosa
 
-- Github: [@githubhandle](https://github.com/FrancoRosa)
+- Github: [@FrancoRosa](https://github.com/FrancoRosa)
 - Linkedin: [linkedin](https://www.linkedin.com/in/franco-rosa-79972119b)
 
 ## 🤝 Contributing
