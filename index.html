@@ -1,12 +1,259 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube Video Player</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Youtube</h1>
+    <nav class="nav-bar">
+        <div class="nav-logo">
+            <img class="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-8.png"
+                alt="youtube-logo">
+        </div>
+        <div class="searchform">
+            <input type="text" class="input" placeholder="Search">
+            <button type="submit"><i class="fas fa-search fa-1x"></i>
+            </button>
+        </div>
+        <div class="nav-sign">
+                <img class="logo-icon" src="https://icons.iconarchive.com/icons/icons8/ios7/512/Computer-Hardware-Video-Camera-icon.png"
+                alt="video-logo">
+                <img class="logo-icon" src="https://www.freeiconspng.com/uploads/upload-icon-6.png"
+                alt="up-logo">
+                <img class="logo-icon" src="https://www.vippng.com/png/detail/0-423_youtube-bell-icon-png.png"
+                alt="bell-logo">
+        </div>
+    </nav>
+
+    <div class="container">
+        <main class="main">
+                <div id="iframe">
+                    <iframe src="https://www.youtube.com/embed/V74l_zS1x8E"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="video">
+                    <div class="video-title">
+                        Contributing to Open Source Part I: The Easy Way
+                    </div>
+                    <div class="author-avatar">
+                        <img id="autoravatar"
+                        src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="">
+                    </div>
+                    <div class="author-name">
+                        <h5>The Odin Project</h5>
+                    </div>
+                    <div class="subscribe-button">
+                        <img id="subscribe"
+                        src="https://pngimage.net/wp-content/uploads/2018/06/youtube-subscribe-button-png-2.png" alt="">
+                    </div>
+                    <span class="subscriber">8,000</span>
+                    <div class="numberofviews">    
+                        <h5>10,000 views</h5>
+                    </div>  
+           
+                
+                <div class="add">
+                   <button class="video-btn"> <i class="fas fa-plus"></i>Add to</button>
+                </div>
+                <div class="share">
+                    <button class="video-btn"> <i class="fas fa-share"></i>Share</button>
+                </div>
+                <div class="like">
+                    <button class="video-btn"><i class="fas fa-thumbs-up"></i></button>
+                    <span>1200</span>
+                </div>
+                <div class="dislike">
+                    <button class="video-btn"><i class="fas fa-thumbs-down"></i></button>
+                    <span>12</span>
+                </div>
+            
+        </div>
+            
+            <div class="showmore">
+                <h3>Published .... </h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus voluptates cum praesentium iusto
+                    doloribus. Incidunt, rerum. Dolor architecto labore magnam rem assumenda dolore ratione dolorum
+                    temporibus qui ducimus nam consectetur provident, fugiat veniam quaerat inventore at quibusdam nisi
+                    illum praesentium ullam beatae, sint accusamus repellat? Ex obcaecati numquam qui dignissimos.
+                </p>
+            </div>
+
+            <div class="comment-section">
+                <div class="comment-img">
+                    <img src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="comment-avatar">
+                </div>
+                <div class="comment-name">
+                    <h5>Commentor name</h5>
+                </div>
+                <div class="comment-time">
+                    <h6>21/02/2019 16:27 </h6>
+                </div>
+                <div class="comment">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, ut.
+                    </p>
+                </div>
+                <div class="like-dislike-comment">
+                    <button class="video-btn"><i class="fas fa-thumbs-up"></i></button>
+                    <span>1200</span>
+                    <button class="video-btn"><i class="fas fa-thumbs-down"></i></button>
+                    <span>12</span>
+            </div>
+            </div>
+            <div class="comment-section">
+                <div class="comment-img">
+                    <img src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="comment-avatar">
+                </div>
+                <div class="comment-name">
+                    <h5>Commentor name</h5>
+                </div>
+                <div class="comment-time">
+                    <h6>21/02/2019 16:27 </h6>
+                </div>
+                <div class="comment">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, ut.
+                    </p>
+                </div>
+                <div class="like-dislike-comment">
+                    <button class="video-btn"><i class="fas fa-thumbs-up"></i></button>
+                    <span>1200</span>
+                    <button class="video-btn"><i class="fas fa-thumbs-down"></i></button>
+                    <span>12</span>
+            </div>
+            </div> 
+            <div class="comment-section">
+                <div class="comment-img">
+                    <img src="https://ssl.gstatic.com/images/branding/product/1x/avatar_circle_blue_512dp.png" alt="comment-avatar">
+                </div>
+                <div class="comment-name">
+                    <h5>Commentor name</h5>
+                </div>
+                <div class="comment-time">
+                    <h6>21/02/2019 16:27 </h6>
+                </div>
+                <div class="comment">
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, ut.
+                    </p>
+                </div>
+                <div class="like-dislike-comment">
+                    <button class="video-btn"><i class="fas fa-thumbs-up"></i></button>
+                    <span>1200</span>
+                    <button class="video-btn"><i class="fas fa-thumbs-down"></i></button>
+                    <span>12</span>
+            </div>
+            </div> 
+        </main>
+
+        <aside class="sidebar">
+            <div class="upnext">
+                <div>
+                    <span id="up-next">Up next</span>
+                </div>
+                
+                <div>
+                    <span id="autoplay">autoplay</span>
+                    <span><i class="fas fa-info-circle"></i></span>
+                    <span id="checkbox"><input type="checkbox"></span>
+                </div>
+
+            </div>
+            <div class="preview">
+                <div class="thumnail-image">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                </div>
+                <div class="thumnail-title">
+                    <span>Running an SQL Injection Attack - Computerphile</span>
+                </div>
+                <div class="thumnail-views">
+                    <span>The Odin Project</span><br>
+                    <span>12,519 views</span>
+                </div>
+            </div>
+            <div class="preview">
+                <div class="thumnail-image">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                </div>
+                <div class="thumnail-title">
+                    <span>Running an SQL Injection Attack - Computerphile</span>
+                </div>
+                <div class="thumnail-views">
+                    <span>The Odin Project</span><br>
+                    <span>12,519 views</span>
+                </div>
+            </div>    <div class="preview">
+                <div class="thumnail-image">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                </div>
+                <div class="thumnail-title">
+                    <span>Running an SQL Injection Attack - Computerphile</span>
+                </div>
+                <div class="thumnail-views">
+                    <span>The Odin Project</span><br>
+                    <span>12,519 views</span>
+                </div>
+            </div>    <div class="preview">
+                <div class="thumnail-image">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                </div>
+                <div class="thumnail-title">
+                    <span>Running an SQL Injection Attack - Computerphile</span>
+                </div>
+                <div class="thumnail-views">
+                    <span>The Odin Project</span><br>
+                    <span>12,519 views</span>
+                </div>
+            </div>    <div class="preview">
+                <div class="thumnail-image">
+                    <img class="thumnail" src="https://archive.ph/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207" alt="">
+                </div>
+                <div class="thumnail-title">
+                    <span>Running an SQL Injection Attack - Computerphile</span>
+                </div>
+                <div class="thumnail-views">
+                    <span>The Odin Project</span><br>
+                    <span>12,519 views</span>
+                </div>
+            </div>
+            <hr>
+            
+            <button id="showmore-btn">Show more</button>
+
+        </aside>
+    </div>
+
+    <footer class="footer">
+        
+        <div class="footer-btn">
+            <img class="logo" src="https://logodownload.org/wp-content/uploads/2014/10/youtube-logo-8.png" alt="youtube-logo">
+            <span>Language:English</span>
+            <span>Location:Netherlands</span>
+            <span>Restricted mode:Off</span>
+            <span>History</span>
+            <span>Help</span>
+        </div>
+
+        <hr>
+        <div>
+            <a href="#">About</a>
+            <a href="#">Press</a>
+            <a href="#">Copyright</a>
+            <a href="#">Creators</a>
+            <a href="#">Advertise</a>
+            <a href="#">Developers</a>
+            <br>
+        </div>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Policy & Safety</a>
+        <a href="#">Test new features</a>
+    </footer>
+    <script src="https://kit.fontawesome.com/b79fe9e269.js" crossorigin="anonymous"></script>
 </body>
 </html>
