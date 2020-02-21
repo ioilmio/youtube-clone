@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # add the linters you want stickler to use for this project
 linters:
   stylelint:
@@ -10,3 +11,10 @@ linters:
 # find full documentation here: https://stickler-ci.com/docs
 
 
+=======
+linters:
+  csslint: {  }
+files:
+  ignore:
+    - 'bower_components/*'
+>>>>>>> b28de036366a86e10ce01d9fc93ef4dd796c6de5
